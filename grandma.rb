@@ -1,18 +1,19 @@
 
 
 def speak_to_grandma(string)
-   uppercase = string.upcase
-   lowercase = string.downcase
+   uppercase = "WHAT?"
+   shout = string.upcase
+   lowercase = "hello"
    love = "I LOVE YOU GRANDMA!"
   
-  if  string == lowercase
-    return "HUH?! SPEAK UP, SONNY!"
-  end
-  elsif string == uppercase 
-    return "NO, NOT SINCE 1938!"
-  end
-  else string == love 
+  if string == love
     return "I LOVE YOU TOO PUMPKIN!"
+  elsif string == uppercase
+    return "NO, NOT SINCE 1938!"
+  elsif string == shout
+    return "NO, NOT SINCE 1938!"
+  else
+    return "HUH?! SPEAK UP, SONNY!"
   end
 end
 
