@@ -9,7 +9,7 @@ def speak_to_grandma(string)
     return "I LOVE YOU TOO PUMPKIN!"
   elsif uppercase 
     return "NO, NOT SINCE 1938!"
-  else
+  elsif
     return "HUH?! SPEAK UP, SONNY!"
   end
 end
