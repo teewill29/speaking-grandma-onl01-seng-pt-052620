@@ -5,12 +5,12 @@ def speak_to_grandma(string)
    lowercase = string.downcase
    love = "I LOVE YOU GRANDMA!"
   
-  if lowercase
-    return "HUH?! SPEAK UP, SONNY!"
+  if uppercase
+    return "NO, NOT SINCE 1938!"
   elsif uppercase 
     return "NO, NOT SINCE 1938!"
-  elsif love 
-    return "I LOVE YOU TOO PUMPKIN!"
+  else
+    return "HUH?! SPEAK UP, SONNY!"
   end
 end
 
