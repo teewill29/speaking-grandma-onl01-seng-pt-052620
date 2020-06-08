@@ -6,7 +6,7 @@ def speak_to_grandma(string)
    love = "I LOVE YOU GRANDMA!"
   
   if love
-    return "NO, NOT SINCE 1938!"
+    return "I LOVE YOU TOO PUMPKIN!"
   elsif uppercase 
     return "NO, NOT SINCE 1938!"
   else
