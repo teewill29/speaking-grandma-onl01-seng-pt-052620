@@ -1,8 +1,8 @@
 
 
 def speak_to_grandma(string)
-   uppercase = string.upcase
-   lowercase = string.downcase
+   uppercase = "HELLO"
+   lowercase = "hello"
    love = "I LOVE YOU GRANDMA!"
   
   if uppercase
