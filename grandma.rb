@@ -2,7 +2,7 @@
 
 def speak_to_grandma(string)
    uppercase = "WHAT?"
-   shout = 
+   shout = string.upcase
    lowercase = "hello"
    love = "I LOVE YOU GRANDMA!"
   
@@ -10,6 +10,7 @@ def speak_to_grandma(string)
     return "I LOVE YOU TOO PUMPKIN!"
   elsif string == uppercase
     return "NO, NOT SINCE 1938!"
+  elsif string == shout
   else
     return "HUH?! SPEAK UP, SONNY!"
   end
